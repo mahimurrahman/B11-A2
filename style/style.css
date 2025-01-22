@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.raleway {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+/* colors */
+.orange {
+    color: orange;
+}
+
+.orangeB {
+    background-color: orange;
+}
+
+.skyBlue {
+    color: #01ACFD;
+}
+
+.skyBlueB {
+    background-color: skyblue;
+}
+
+.paste {
+    color: #05D4DF;
+}
+
+.pasteB {
+    background-color: #05D4DF;
+}
+
+.purple {
+    color: #5D58EF;
+}
+
+.purpleB {
+    background-color: #5D58EF;
+}
+
+.buttonColor1 {
+    background-color: #3CD8E8;
+}
+
+.buttonColor2 {
+    background-color: #95B226;
+}
+
+.buttonColor3 {
+    background-color: #5D58F0;
+}
+
+.descriptionColor {
+    color: #666666;
+}
+
+/* colors */
+body {
+    max-width: 100vw;
+}
+
+nav {
+    max-width: 100vw;
+    padding: 20px 0;
+}
+
+.navigationBar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nameLogo {
+    width: 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navName {
+    font-size: 2.5rem;
+    font-weight: 650;
+}
+
+.navItemContainer {
+    width: 45%;
+    font-size: 1.4rem;
+}
+
+.navItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItems li {
+    list-style: none;
+}
+
+.navLinks {
+    text-decoration: none;
+}
+
+.navContact ul {
+
+    display: flex;
+    align-items: center;
+
+    li {
+        list-style: none;
+    }
+}
+
+.contactButton {
+    font-size: 1.4rem;
+    padding: 10px 35px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contactButton:hover,
+.specialButton:hover {
+    background-color: rgba(255, 68, 0, 0.727);
+    color: black;
+}
+
+.navLinks:hover,
+.curriculumLink:hover {
+    color: rgb(232, 20, 55);
+}
+
+.middleButtonMini:hover,
+.middleButton:hover {
+    background-color: wheat;
+    color: rgba(0, 0, 0, 0.811);
+}
+
+.btn:hover {
+    background-color: #666666;
+    color: wheat;
+}
+
+.boxShadow {
+    box-shadow: 1px 4px 15px #666666;
+}
+
+.banner {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bannerInformation {
+    width: 60%;
+}
+
+.bannerTitle {
+    width: 75%;
+    margin: 10px 0;
+    font-size: 3.5rem;
+}
+
+.bannerDescription {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    padding: 10px 35px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bannerImage {
+    width: 35%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.standardCurriculum {
+    padding-top: 50px;
+    width: 100%;
+    background-image: url('../assets/bg.png');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.curriculum_title {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.curriculumBoxContainer {
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.curriculumBox {
+    padding: 30px 15px 10px 15px;
+    width: calc(100% / 3 - 20px);
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ 
+
+    img {
+        height: 105px;
+    }
+}
+
+.custom1 {
+    background-image: linear-gradient(to bottom, #01adfd3c, white, white, white);
+    border: 1px solid #01adfd58;
+}
+
+.custom2 {
+    background-image: linear-gradient(to bottom, rgba(255, 166, 0, 0.179), white, white, white);
+    border: 1px solid rgba(255, 166, 0, 0.249);
+}
+
+.custom3 {
+    background-image: linear-gradient(to bottom, #5d58ef2b, white, white, white);
+    border: 1px solid #5d58ef55;
+}
+
+.curriculumTitle {
+    padding: 15px;
+}
+
+.curriculumDescription {
+    padding: 15px;
+}
+
+.curriculumLink {
+    padding: 15px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.specialButtonsContainer {
+    text-align: center;
+}
+
+.specialButton {
+    padding: 10px 18px;
+    font-size: 2rem;
+    color: white;
+    background-color: orange;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.ourStories {
+    background-image: url('../assets/bg.png'), linear-gradient(to top, #fea10156, white);
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0 20px 0;
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+.storiesContainer {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.bigStory {
+    width: 48%;
+}
+
+.imgPart {
+    position: relative;
+    width: 100%;
+    height: 350px;
+
+    img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.middleButton {
+    position: absolute;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 10px 35px;
+    z-index: 10;
+    border-radius: 50px;
+    top: 94%;
+    left: 5%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.textPart {
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.storyTitle {
+    font-size: 2rem;
+}
+
+.storyDescription {
+    font-size: .9rem;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+
+.miniStoriesContainer {
+    width: 49%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.miniStories {
+    width: 100%;
+    height: 270px;
+}
+
+.storyTitleMini {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.imgPartMini {
+    position: relative;
+    width: 100%;
+    height: 60%;
+
+
+    img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.textPartMini {
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 40%;
+    font-size: 0.9rem;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    h2 {
+        padding-top: 5px;
+    }
+}
+
+.middleButtonMini {
+    color: white;
+    position: absolute;
+    font-size: .8rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    z-index: 10;
+    border-radius: 50px;
+    top: 90%;
+    left: 5%;
+    border: none;
+    cursor: pointer;
+}
+
+.extra {
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+    background-color: #01ACFD;
+
+}
+
+.footerInfo {
+    color: white;
+    width: 75%;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footerDescription {
+    width: 300px;
+    text-align: left;
+}
+
+.footerTitle {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-bottom: 15px;
+
+    h2 {
+        padding-top: 8px;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+}
+
+.aboutSchool {
+    text-align: left;
+}
+
+.aboutSchool>h1 {
+    margin-bottom: 15px;
+}
+
+.aboutSchool>ul>li {
+
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.images>img {
+    padding-right: 5px;
+}
+
+.contactUs {
+    text-align: left;
+}
+
+.contactUs>h1 {
+    margin-bottom: 15px;
+}
+
+.marqueeText {
+    padding-top: 20px 0;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:576px) {
+    main {
+        width: 96.5vw;
+    }
+
+    .navName,
+    .navItemContainer,
+    .contactButton,
+    .bigStory {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .navigationBar {
+        width: 90%;
+    }
+
+    .banner {
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+
+    .bannerInformation {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bannerTitle {
+        width: 100%;
+        font-size: 2.8rem;
+    }
+
+    .bannerDescription {
+        font-size: 1.2rem;
+    }
+
+    .bannerImage {
+        width: 100%;
+    }
+
+    .curriculumBoxContainer {
+        flex-direction: column;
+    }
+
+    .standardCurriculum,
+    .ourStories {
+        background-size: contain;
+
+    }
+
+    .curriculumBox {
+        width: calc(100% - 40px);
+        margin-bottom: 10px;
+    }
+
+    .curriculum_title {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        font-size: 2rem;
+    }
+
+    .storiesContainer {
+        margin-top: 15px;
+        width: calc(90% - 40px);
+    }
+
+    .storyTitleMini {
+        margin-top: 0;
+        padding-right: 5px;
+        font-size: 1.1rem;
+    }
+    .middleButtonMini {
+        padding: 5px 5px;
+    }
+
+    .miniStoriesContainer {
+        width: 100%;
+    }
+
+    .miniStories {
+        padding-top: 5px;
+        padding-left: 8px;
+        margin-bottom: 20px;
+    }
+
+    .textPartMini {
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .extra {
+        margin-top: 60px;
+    }
+
+    .footerInfo {
+        flex-direction: column;
+    }
+
+    .lastWords {
+        margin-bottom: 30px;
+    }
+
+    .aboutSchool>ul {
+        margin-bottom: 30px;
+    }
+}
